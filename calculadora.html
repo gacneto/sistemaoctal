@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
+    <link rel="manifest" href="imgs/site.webmanifest">
+    <link rel="stylesheet" href="style_calculadora.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="introdução_index.html">Introdução</a>
+        <a href="aprofundamento_index.html">Aprofundamento</a>
+        <a href="equipe.html">Equipe</a>
+        <a href="contate_nos.html">Contate-nos</a>
+        <a href="#calculadora">Calculadora</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+
+<header>
+    <p class="logo"><img src="imgs/logo.png" alt="" /></p>
+</header>
+
+<main id="calculadora">
+    <div class="calculator">
+        <h2>Calculadora Decimal para Octal</h2>
+        <label for="decimal">Digite um número decimal:</label>
+        <input type="number" id="decimal">
+        <button onclick="calcularOctal()">Converter para Octal</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script2.js"></script>
+</main>
+<footer>
+    <h3>Suporte</h3>
+        <p>Digite seu e-mail abaixo para entrar em contato com nossa equipe em caso de dúvidas ou má funcionalidade do site</p>
+        <div id="input_group">
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div id="footer_copyright">
+        &#169 2024 all rights reserved
+    </div>
+</footer>
+</body>
+</html>
