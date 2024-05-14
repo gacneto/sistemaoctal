@@ -100,7 +100,11 @@ header img {
 }
 
 main {
+    flex: 1;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -117,11 +121,11 @@ footer h3 {
 footer p {
     margin-bottom: 10px;
 }
-  .container {
+
+.container {
     background-color: #16113d;
     width: 90%;
     max-width: 800px;
-    margin-left: 510px;
     margin-bottom: 50px;
   
     border: 2px solid #e1e1e6;
@@ -133,7 +137,7 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
   
   .questions-container {
     width: 100%;
